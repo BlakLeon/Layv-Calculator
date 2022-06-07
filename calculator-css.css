@@ -1,0 +1,41 @@
+/**
+ *	CALCULATOR CSS
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+#prime_calculator{max-width:400px;margin:auto;background:#ec6300;box-shadow:0 7px 12px rgba(0,0,0,0.3);overflow:hidden;}
+#calcHdr{padding:0px 25px;text-align:center;z-index:10;cursor:pointer; font-size:19pt; }
+#calcSubTtl{padding:0px 25px;text-align:center;z-index:10; font-size:17px;}
+#prime_calculator #calcHdr p{color: #fff; font-family: 'Titillium Web'; font-weight: 700;}
+#prime_calculator #calcSubTtl p{ color: #fff; font-weight: 400; font-family: 'Roboto Slab';}
+#calc_screen{font-size:30px;background:#fff;color:#333;transition:all 0.2s;max-height:0;overflow:hidden;}
+#calc_screen input{text-align:center;}
+#calc_screen.prime_on{max-height:100vh;padding:10px;margin-bottom:20px;}
+#calc_inputs{padding:5px 20px 20px;background:#fff;color:#3d3d3d;}
+.calc_inps{margin:20px 0;}
+.calc_amountHdr{font-weight: 700; font-family: 'Titillium Web';}
+
+#calc_ammount{font-weight: 400; font-size:18px;}
+input{ border:2px solid; border-color: #3d3d3d; padding:5px 10px; width:70%; max-width:70%}
+#prime_calculator select,#prime_calculator .input2{ padding:5px 10px;width:100%;max-width:100%;border-radius:0; }
+#prime_calculator select{padding:7px 10px  10px;line-height:1.25;font-size:17px;
+ background-position-x:500px;
+}
+#prime_calculator label{display:block;font-size:19px; font-weight: 700; font-family: 'Titillium Web'; }
+#prime_calculator .flex{display:flex;align-items:flex-end;margin-top:-20px;}
+#prime_calculator .btn{text-align:center;background:#ec6300;color:#fff;font-size:19px;padding:12px;cursor:pointer; font-family: 'Titillium Web';font-weight: 700;}
+.btn :hover{border-color: #ec6300; border: solid 1px; background-color: #fff;}
+.strch span{color:#333;position:relative;}
+.rate{position:relative;}
+.rate span{position:absolute;top:28px;right:30px;}
+.duration{width:30%;}
+.time{width:70%; border-color: darkgrey; border: solid 1px;}
+.dropd{width: 100%; border-color: darkgrey; border: solid 1px;}
+#ttlhd{text-align:center;line-height:1;margin:10px 0;text-align:center; font-weight:bold; font-size:17pt;font-family:'Titillium Web'}
+#interestAmt{font-size:17px;}
+#prime_calculator em{display:block;font-size:12px;margin:10px 0 -10px;text-align:center;}
+.results{font-weight:600; text-align:center}
+.inputRes{border:none; display:block; padding:0px; text-align:center;line-height:1;margin:10px 0;width:100%; max-width:100%; font-weight:bold; font-size:19pt; font-family:'Roboto Slab'}
+.afterRes{border:none; display:block; padding:0px; text-align:center;line-height:1;margin:10px 0;width:100%; max-width:100%; font-weight:400; font-size:17pt; font-family:'Roboto Slab'}
+
